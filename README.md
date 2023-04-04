@@ -9,7 +9,7 @@ This program takes in input of the entity's name & hex color code. Using these d
 The user inputs the desired name & hex color code for the badge. These details are taken in & then used to generate the URL for its respective [Shieids.io](https://shields.io/) badge. The URL can be accessed by clicking on it directly through the terminal.
 
 ## Examples
-Here are some live examples of the [Shieids.io](https://shields.io/) links that can be generated using badger:
+Here are some live examples of the [Shieids.io](https://shields.io/) badges that can be generated using badger:
 
 ![C](https://img.shields.io/badge/-C-A8B9CC?logo=C&logoColor=white&style=flat)
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=CSS3&logoColor=white&style=flat)
