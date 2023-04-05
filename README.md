@@ -24,8 +24,8 @@ Here are some live examples of the [Shieids.io](https://shields.io/) badges that
 
 
 ## Changelog & Future Updates
-* Guardrails for user-input.
-* Space support.
+* Added Guardrails for user-input.
+* Added space (' ') support.
 
 ## Getting Started
 * Download the program using the green "<> Code" button.
