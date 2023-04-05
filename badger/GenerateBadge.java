@@ -13,10 +13,25 @@ public class GenerateBadge {
 
         System.out.print("Enter the Entity Name:");
         entity_name = scan.nextLine();
+        entity_name = entity_name.replace(" ", "&20");
 
-        System.out.print("Enter the Hex Color Code for your Badge:");
-        hex_color_code = scan.nextLine();
-        System.out.println("+--------------------------------------------+");
+        boolean invalid;
+        do {
+            invalid = false;
+            System.out.print("Enter the Hex Color Code for your Badge:");
+            hex_color_code = scan.nextLine();
+            System.out.println("+--------------------------------------------+");
+            hex_color_code = hex_color_code.replace("#", "");
+
+            for (int i = 0; i < hex_color_code.length(); i++) {
+                char current_char = hex_color_code.charAt(i);
+                if (!Character.isDigit(current_char)) {
+                    System.out.println("The details you have entered were invalid. Please try again.");
+                    invalid = true;
+                    break;
+                }
+            }
+        } while (invalid);
 
         String[] details = new String[2];
         details[0] = entity_name;
