@@ -1,5 +1,5 @@
 # badger
-This program takes in input of the entity's name & hex color code. Using these details, a URL link of a [Shieids.io](https://shields.io/) badge is generated, which can be easily implemented for use in README.mds, etc. You can easily view information on the supported entities through [Simple Icons](https://simpleicons.org/). This program was created to automate the process which is useful especially when creating a batch of badge for a README.md file.
+This program takes in the entity's name & hex color code. Using these details, a URL link of a [Shieids.io](https://shields.io/) badge is generated, which can be easily implemented for use in README.mds, etc. You can easily view information on the supported entities through [Simple Icons](https://simpleicons.org/). This program was created to automate this process which is useful especially when creating a batch of badges for a README.md file.
 
 ## Demo
 
