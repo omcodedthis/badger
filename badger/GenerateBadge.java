@@ -25,7 +25,7 @@ public class GenerateBadge {
 
             for (int i = 0; i < hex_color_code.length(); i++) {
                 char current_char = hex_color_code.charAt(i);
-                if (!Character.isDigit(current_char)) {
+                if (!Character.isLetterOrDigit(current_char)) {
                     System.out.println("The details you have entered were invalid. Please try again.");
                     invalid = true;
                     break;
